@@ -1,0 +1,95 @@
+body {
+    font-family: poppins;
+    background-color: #0D1821;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    
+  }
+  .card {
+    background-color: #5b9baf;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+}
+
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #todo-input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  #todo-input:focus {
+    outline: none;
+  }
+  
+  button {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #89b44d;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  li span {
+    flex: 1;
+  }
+  
+  li button {
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #530d08;
+    color: white;
+  }
+  
+  li button:hover {
+    background-color: #ff0000;
+  }
+  
